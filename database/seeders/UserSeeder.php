@@ -30,6 +30,6 @@ class UserSeeder extends Seeder
         User::create($data);
 
         // Testing Dummy User
-        User::factory(99)->create();
+        User::factory(50)->create();
     }
 }

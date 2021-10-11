@@ -24,7 +24,7 @@ class ProductSeeder extends Seeder
                 'slug' => 'samsung-galaxy-s21',
                 'description' => 'Similique molestias exercitationem officia aut. Itaque doloribus et rerum voluptate iure. Unde veniam magni dignissimos expedita eius',
                 'price' => 18500.00,
-                'user_id' => 1,
+                'user_id' => 5,
                 'image' => 'https://via.placeholder.com/800x600.png/008876?text=samsung',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -33,6 +33,6 @@ class ProductSeeder extends Seeder
         Product::insert($data);
 
         // Testing Dummy Products
-        Product::factory(4999)->create();
+        Product::factory(1000)->create();
     }
 }
