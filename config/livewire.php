@@ -56,8 +56,8 @@ return [
 
     // 'asset_url' => null,
     // 'asset_url' => url('http://localhost/laravel-inventory-class/backend/public/'),
-    'asset_url' => config('app.url').'/public',
-    // 'asset_url' => 'public',
+    // 'asset_url' => config('app.url').'/public',
+    'asset_url' => config('app.url'), // heroku
 
     /*
     |--------------------------------------------------------------------------
