@@ -85,7 +85,7 @@ class Comments extends Component
         
 
         $createdComment = Comment::create([
-            'body'=>$this->newComment, 'user_id'=> 1
+            'body'=>$this->newComment, 'user_id'=> 5
         ]);
         
         if($this->photo){
