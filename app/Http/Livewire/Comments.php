@@ -89,10 +89,10 @@ class Comments extends Component
         ]);
         
         if($this->photo){
-            // $this->photo->store('photos');
+            $this->photo->store('photos');
             // $name = md5($this->photo . microtime()).'.'.$this->photo->extension();
             // $this->photo->storeAs('photos',$name);
-            $this->photo->store('images/comments','public');
+            // $this->photo->store('images/comments','public');
         }
         // array_unshift($this->comments,
         // [
